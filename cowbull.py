@@ -28,7 +28,7 @@ def getHint(secret: str, guess: str) -> str:
             if guess_ls[x] != secret_ls[x]:
                 guess_ls[guess_ls.index(secret_ls[x])] = "-1"
                 b+=1
-    #return "{}A{}B".format(a,b)
-    print("a = ",a," b = ",b)
+    return "{}A{}B".format(a,b)
+    
 
 getHint("1807","7810")
