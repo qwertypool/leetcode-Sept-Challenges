@@ -15,6 +15,7 @@
 # Explanation: 1 bull and 3 cows. The bull is 8, the cows are 0, 1 and 7.
 
 
+
 def getHint(secret: str, guess: str) -> str:
     secret_ls = [i for i in secret]
     guess_ls = [i for i in guess]
